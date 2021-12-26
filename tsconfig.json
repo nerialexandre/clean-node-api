@@ -17,9 +17,12 @@
       "./src/@types"
     ],
     "resolveJsonModule": true,
-    "baseUrl": ".",
-    "paths": {
-      "@models/*": ["./src/models/*"]
-    }
-  }
+    // "baseUrl": ".",
+    // "paths": {
+    //   "@config/*": ["./src/config/*"]
+    // }
+  },
+  "include": [
+    "src/**/*"
+  ]
 }
